@@ -1,0 +1,1 @@
+{"uuid": "7cca0312-b6d9-4f52-ac28-4c62646d1a21", "befores": [{"name": "pytestbdd_stepdef_given_I go to the login menu I try to login with the newly created email but invalid password.", "status": "passed", "start": 1674642791625, "stop": 1674642791625}], "start": 1674642791625, "stop": 1674642793761}

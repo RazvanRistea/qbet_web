@@ -1,0 +1,25 @@
+# To execute this docker-compose yml file use `docker-compose -f <file_name> up`
+# Add the `-d` flag at the end for detached execution
+version: "3"
+services:
+  chrome:
+    image: seleniarm/standalone-chromium:latest
+    shm_size: '4g'
+    ports:
+      - "4444:4444"
+      - "5900:5900"
+      - "7900:7900"
+    tty: true
+
+  selenium_tests:
+    build:
+        context: ./
+    ports:
+     - "5020:5020"
+    expose:
+     - "5020"
+    environment:
+        #future use for env variables"
+        PYTHONUNBUFFERED: 1
+    depends_on:
+     - chrome

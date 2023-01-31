@@ -1,0 +1,5 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 109.0.5414
+[32mINFO    [0m WDM:logger.py:11 Driver [/Users/razvan/.wdm/drivers/chromedriver/mac_arm64/109.0.5414/chromedriver] found in cache
+[32mINFO    [0m api_core.microservices.restBase:restBase.py:17 POST request to: https://cognito-idp.eu-west-1.amazonaws.com/
+[32mINFO    [0m api_core.microservices.restBase:restBase.py:38 GET request to: https://vebkmtky08.execute-api.eu-west-1.amazonaws.com/Development/api/v1/players

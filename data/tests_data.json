@@ -1,0 +1,13 @@
+{
+  "qBetExistingUser": {
+    "name": "qbet",
+    "last_name": "UserTesting test",
+    "email": "qbetExisting@testautomation.com",
+    "password": "Parola$123",
+    "phone_number": "2412414532",
+    "birthday": "10-10-1991",
+    "street": "test street",
+    "post_code": "24214214",
+    "city": "Testerville"
+  }
+}
