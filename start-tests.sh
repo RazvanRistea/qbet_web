@@ -1,7 +1,7 @@
 #!/bin/sh
 echo Waiting for test initialization ...
 echo $1 was selected as the selenium node.
-#sleep 15
+sleep 15
 
 cd web_tests
 pytest --alluredir=allure-results --browser $1 --log-cli-level=INFO
