@@ -4,7 +4,13 @@ echo $1 was selected as the selenium node.
 sleep 15
 
 cd web_tests
-pytest --alluredir=allure-results --browser $1 --log-cli-level=INFO
+if [ -z "$2" ]
+  then
+    pytest --alluredir=allure-results --browser $1 --log-cli-level=INFO
+  else
+    pytest --alluredir=allure-results --browser $1 --log-cli-level=INFO -m $2
+fi
+
 
 if [[ $? == 0 ]]; then
         cd ..
